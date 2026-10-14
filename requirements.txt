@@ -1,0 +1,5 @@
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+# optional, for running the test-suite with pytest (tests/run_tests.py works without it)
+# pytest>=7

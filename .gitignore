@@ -1,0 +1,43 @@
+# ============================================================
+# .gitignore: archivos que git NO debe subir nunca
+# Cada línea es un patrón. * = "cualquier cosa".
+# Una línea que acaba en / se refiere a una carpeta.
+# ============================================================
+
+# --- Windows / WSL ------------------------------------------
+*:Zone.Identifier
+*Zone.Identifier
+Thumbs.db
+desktop.ini
+
+# --- Mac ----------------------------------------------------
+.DS_Store
+
+# --- Python -------------------------------------------------
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# --- LaTeX: archivos auxiliares de la compilación ------------
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.lof
+*.lot
+*.nav
+*.snm
+*.bcf
+*.run.xml
+
+# --- Editores -----------------------------------------------
+.vscode/
+*~
+*.swp

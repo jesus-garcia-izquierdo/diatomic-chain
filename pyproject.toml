@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diatomic-chain"
+version = "1.0.0"
+description = "Lattice dynamics and phonon thermodynamics of the 1D diatomic chain: acoustic/optical branches, phonon DOS, heat capacity vs Debye and Einstein models, Langevin validation."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Jesús García Izquierdo" }]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "scipy>=1.11", "matplotlib>=3.8"]
+keywords = ["phonons", "condensed matter", "lattice dynamics", "Debye model",
+            "Einstein model", "heat capacity", "density of states", "Langevin dynamics"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Scientific/Engineering :: Physics",
+  "Intended Audience :: Science/Research",
+  "Intended Audience :: Education",
+]
+
+[project.urls]
+Homepage = "https://github.com/jesus-garcia-izquierdo/diatomic-chain"
+
+[tool.setuptools]
+packages = ["diatomic_chain"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

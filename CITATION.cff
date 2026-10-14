@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "diatomic-chain: lattice dynamics and phonon thermodynamics of the 1D diatomic chain"
+authors:
+  - family-names: "García Izquierdo"
+    given-names: "Jesús"
+version: 1.0.0
+date-released: 2026-10-14
+license: MIT
+repository-code: "https://github.com/jesus-garcia-izquierdo/diatomic-chain"
+keywords:
+  - phonons
+  - condensed matter physics
+  - lattice dynamics
+  - density of states
+  - heat capacity
+  - Debye model
+  - Einstein model
+  - Langevin dynamics

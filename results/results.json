@@ -1,0 +1,172 @@
+{
+  "reference_parameters": {
+    "m1": 1.0,
+    "m2": 2.0,
+    "K1": 1.0,
+    "K2": 1.0,
+    "a": 1.0
+  },
+  "reference_spectrum": {
+    "sound_velocity": 0.408248290463863,
+    "acoustic_top": 1.0,
+    "optical_bottom": 1.4142135623730951,
+    "optical_top": 1.7320508075688772,
+    "gap": 0.41421356237309515,
+    "sqrt_mean_omega2": 1.224744871391589,
+    "optical_mean": 1.5973866051758865,
+    "debye_frequency": 2.565099660323728,
+    "debye_frequency_acoustic": 1.282549830161864
+  },
+  "realspace_vs_bloch_max_abs_diff": 1.9777779860115827e-08,
+  "optical_k0_amplitude_ratio": -0.5,
+  "dos": {
+    "normalisation_sampled": 1.9999999999999998,
+    "normalisation_finite": 2.0,
+    "max_abs_diff_sampled_vs_exact_bins": 0.0003282306242362587,
+    "g0_exact": 0.7796968012336761,
+    "debye_flat_value": 0.7796968012336761
+  },
+  "heat_capacity": {
+    "table": [
+      {
+        "T": 0.01,
+        "exact": 0.025656068474563063,
+        "debye": 0.025650996603236075,
+        "einstein": 1.9369897218573885e-49,
+        "hybrid": 0.025650996603236075
+      },
+      {
+        "T": 0.1,
+        "exact": 0.26288299493311795,
+        "debye": 0.25650996563069123,
+        "einstein": 0.0014392161634201887,
+        "hybrid": 0.2564991221805212
+      },
+      {
+        "T": 0.3,
+        "exact": 0.8552730960334742,
+        "debye": 0.7653560909999986,
+        "einstein": 0.5816384492511659,
+        "hybrid": 0.814112399238461
+      },
+      {
+        "T": 0.5,
+        "exact": 1.3286067119059062,
+        "debye": 1.1931436658450008,
+        "einstein": 1.241108900148137,
+        "hybrid": 1.3023287696937111
+      },
+      {
+        "T": 1.0,
+        "exact": 1.7764456629943994,
+        "debye": 1.695208077083981,
+        "einstein": 1.7676897954530832,
+        "hybrid": 1.7684328568398955
+      },
+      {
+        "T": 2.0,
+        "exact": 1.9392774753146051,
+        "debye": 1.9129232107956022,
+        "einstein": 1.938654662511024,
+        "hybrid": 1.9372104618948245
+      }
+    ],
+    "low_T_slope_exact": 2.5650997109569356,
+    "low_T_slope_theory": 2.565099660323728,
+    "max_rel_error_debye": 0.1115133943671367,
+    "max_rel_error_hybrid": 0.06165247817629744,
+    "fit_debye": {
+      "theta": 2.2558535547578336,
+      "rms": 0.020273388941319567,
+      "max_rel": 0.13618281832350349
+    },
+    "fit_einstein": {
+      "theta": 0.9622754372288981,
+      "rms": 0.14131562584296156,
+      "max_rel": 0.9999999999999999
+    },
+    "high_T_check": {
+      "T": 10.0,
+      "exact": 1.9975029136932512,
+      "expansion": 1.9975
+    }
+  },
+  "branch_fraction_optical": {
+    "T=0.1": 0.00017483375780418043,
+    "T=0.25": 0.1015279320743506,
+    "T=0.5": 0.3430855553117002
+  },
+  "model_errors_vs_mass_ratio": {
+    "mass_ratio=1": {
+      "max_abs_rel_err_debye": 0.14408812915796457,
+      "max_abs_rel_err_hybrid": 0.04112489317411812
+    },
+    "mass_ratio=2": {
+      "max_abs_rel_err_debye": 0.11151303756003585,
+      "max_abs_rel_err_hybrid": 0.06165307062982882
+    },
+    "mass_ratio=5": {
+      "max_abs_rel_err_debye": 0.08869594338592292,
+      "max_abs_rel_err_hybrid": 0.10221916150311242
+    },
+    "mass_ratio=20": {
+      "max_abs_rel_err_debye": 0.36699910533084185,
+      "max_abs_rel_err_hybrid": 0.13246966234808435
+    }
+  },
+  "effective_debye_temperature": {
+    "mass_ratio=1": {
+      "theta_D0": 3.141592653589793,
+      "min_ratio": 0.7798284578828503,
+      "high_T_ratio": 0.7798284578828503
+    },
+    "mass_ratio=2": {
+      "theta_D0": 2.565099660323728,
+      "min_ratio": 0.8271213057047775,
+      "high_T_ratio": 0.8271213057047775
+    },
+    "mass_ratio=5": {
+      "theta_D0": 1.8137993642342176,
+      "min_ratio": 0.9112624030369754,
+      "high_T_ratio": 1.0461548872524369
+    },
+    "mass_ratio=20": {
+      "theta_D0": 0.9695165413304057,
+      "min_ratio": 0.8805233924794248,
+      "high_T_ratio": 1.8299893987257485
+    }
+  },
+  "zero_point_energy_per_cell": 1.0907049294380824,
+  "displacements": {
+    "G_T0_slope_per_ln_r": 0.25989939931076705,
+    "G_T0_slope_theory": 0.2598989337445587,
+    "u2_T0_N256": 0.8994693802986852,
+    "u2_T0_N2048": 1.1696914324732535,
+    "u2_classical_over_N_T": 0.16666671964857316,
+    "u2_classical_theory": 0.16666666666666666,
+    "bond_zero_point_K1": 0.5453524647190416,
+    "bond_zero_point_K2": 0.5453524647190416
+  },
+  "langevin": {
+    "n_cells": 64,
+    "T": 1.0,
+    "n_samples": 65536,
+    "dt": 0.05,
+    "heat_capacity": 1.9562174522175138,
+    "heat_capacity_err": 0.02255286007487899,
+    "heat_capacity_exact": 1.9921875,
+    "kinetic_T": [
+      0.9984475149358607,
+      0.9958499663095287
+    ],
+    "bond_sq": [
+      0.9907083550328981,
+      0.9891422998870837
+    ],
+    "bond_sq_exact": [
+      0.9921875,
+      0.9921875
+    ],
+    "relative_disp_max_rel_dev": 0.029130375203779924
+  }
+}
